@@ -88,7 +88,7 @@ const Links = () => {
         </Alert>
       }
       {currentLinks.length > 0  &&
-      <div className='sort-wrapper' data-testid='sort-element'>
+      <div className='sort-wrapper'>
       <ButtonDropdown isOpen={dropdownOpen} toggle={toggle}>
         <DropdownToggle outline caret>
           Order By

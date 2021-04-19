@@ -16,8 +16,4 @@ test('Links renders correctly', () => {
   expect(newLinkEl).toHaveClass('submit-link-button')
   expect(newLinkEl).toBeInTheDocument()
   expect(newLinkEl).toBeEnabled()
-
-  const sortEl = screen.getByTestId('sort-element')
-  expect(sortEl).toBeInTheDocument()
-
 });
