@@ -1,0 +1,20 @@
+.add-new-link-wrapper {
+  width: 100%;
+}
+
+.add-new-link-wrapper h2 {
+  margin-bottom: 30px;
+}
+
+.link-input-wrapper {
+  margin-bottom: 15px;
+}
+
+.link-input-wrapper label {
+  display: block;
+}
+
+.link-input-wrapper input {
+  padding: 5px 10px;
+  width: 100%;  
+}
